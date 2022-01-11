@@ -71,7 +71,7 @@
                         <td>{{$loop->iteration}}</td>
                         <td>
                           <div class="btn-group">
-                          <a href="{{url('admin/produk', $produk->id)}}" class="btn btn-dark" ><i  class="fa fa-info" data-feather="info"></i></a>
+                          <a href="{{url('admin/produk', $produk->id)}}" class="btn btn-primary" ><i  class="fa fa-info" data-feather="info"></i></a>
                           <a href="{{url('admin/produk', $produk->id)}}/edit" class="btn btn-warning"><i class="fa fa-edit"data-feather="edit" ></i></a>
                           @include('template.utils.delete', ['url' => url('admin/produk', $produk->id)])
                                             </div>
